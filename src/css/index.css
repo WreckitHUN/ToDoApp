@@ -1,0 +1,71 @@
+:root{
+    /* Color Palette */
+    --color-primary: #005F73;
+    --color-secondary: #0A9396;
+    --color-selection: #055A5B;
+    --color-selection-darker: #001219;
+    --color-body: #000;
+    --color-ascent: #fff;   
+    
+    --border-radius: 30px;
+
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+/* Topography */
+::selection{
+    background: var(--color-primary);
+    color: white;
+}
+
+html{
+    /* 62.5% of 16px is 10px */
+    font-size: 62.5%;
+}
+
+body{
+    color: var(--color-body);
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+
+    height: 100svh;
+}
+
+h1, h2{
+    color: var(--color-ascent);
+    line-height: 1.1;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+p{
+    margin: 0;
+}
+
+/* Content */
+#content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: max-content auto max-content;
+    grid-template-areas: 
+        "header header"
+        "aside  main"
+        "footer footer";
+}
+
