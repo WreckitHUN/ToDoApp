@@ -1,5 +1,4 @@
 import "./homePage.css";
-import createButton from "../Button/button.js";
 
 const homePage = () => {
     const headerElement = document.createElement("header");
