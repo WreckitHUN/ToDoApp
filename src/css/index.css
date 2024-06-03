@@ -5,8 +5,14 @@
     --color-selection: #055A5B;
     --color-selection-darker: #001219;
     --color-body: #000;
-    --color-ascent: #fff;   
+    --color-ascent: #fff; 
+    --color-background-grey: #E9ECEF;
     
+    --color-priority-one: #9B2226;
+    --color-priority-two: #BB3E03;
+    --color-priority-three: #EE9B00;
+    --color-priority-four: #94D2BD;
+
     --border-radius: 30px;
 
 }
